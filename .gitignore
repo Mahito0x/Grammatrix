@@ -20,10 +20,10 @@ Thumbs.db
 .vscode/
 
 # Server data (if not needed in repo)
-Server Data/
+# Server Data/
 
 # Read Only data (if not needed in repo)
-Read Only/
+# Read Only/
 
 # Misc
 *.tmp

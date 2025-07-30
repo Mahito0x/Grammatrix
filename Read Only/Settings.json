@@ -1,0 +1,31 @@
+{
+  "Version": "2.5.2",
+  "Settings": {
+    "state": true,
+    "whitelist": [],
+    "languages": ["en", "sco", "ie"],
+    "time": 1800000,
+    "startwarnings": 0,
+    "warnings": 3,
+    "channels": [],
+    "channelIgnore": [],
+    "prefix": "&",
+    "buttons": [true, true, true, true],
+    "modlog": null
+  },
+  "Permissions": {
+    "toggle": [],
+    "perms": [],
+    "reset": [],
+    "mod": [],
+    "excluded": [],
+    "whitelist": [],
+    "settings": [],
+    "channels": [],
+    "help": [],
+    "invite": [],
+    "buttons": [],
+    "modlog": []
+  },
+  "Watchlist": {}
+}
