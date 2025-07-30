@@ -22,10 +22,18 @@ module.exports = {
 		}
 		GuildData.Settings.buttons = buttons;
 		await functions.liofaUpdate(interaction, GuildData);
-		GuildData.Settings.buttons[0] ? transEmoji = '✅' : transEmoji = '❌';
-		GuildData.Settings.buttons[1] ? langEmoji = '✅' : langEmoji = '❌';
-		GuildData.Settings.buttons[2] ? undoEmoji = '✅' : undoEmoji = '❌';
-		GuildData.Settings.buttons[3] ? getEmoji = '✅' : getEmoji = '❌';
+		GuildData.Settings.buttons[0]
+      ? (transEmoji = "<:checkmark:1400190658819395624>")
+      : (transEmoji = "<:crossmark:1400191032360042556>");
+		GuildData.Settings.buttons[1]
+      ? (langEmoji = "<:checkmark:1400190658819395624>")
+      : (langEmoji = "<:crossmark:1400191032360042556>");
+		GuildData.Settings.buttons[2]
+      ? (undoEmoji = "<:checkmark:1400190658819395624>")
+      : (undoEmoji = "<:crossmark:1400191032360042556>");
+		GuildData.Settings.buttons[3]
+      ? (getEmoji = "<:checkmark:1400190658819395624>")
+      : (getEmoji = "<:crossmark:1400191032360042556>");
 		const buttonEmbed = new EmbedBuilder()
 			.setColor('#00ff08')
 			.setDescription(transEmoji + ' Translator\n' + langEmoji + ' Language\n' + undoEmoji + ' Undo\n' + getEmoji + ' Get Grammatrix');
