@@ -1,0 +1,49 @@
+{
+  "name": "grammatrix",
+  "version": "3.0.0",
+  "description": "Discord bot that enforces English-only chat with detection and moderation features.",
+  "main": "index.js",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "lint": "eslint .",
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mahito0x/Grammatrix.git"
+  },
+  "keywords": [
+    "grammatrix",
+    "discord",
+    "discord-bot",
+    "moderation",
+    "language",
+    "english-only",
+    "nlp",
+    "detection"
+  ],
+  "author": "Mahito",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mahito0x/LoungeLex/issues"
+  },
+  "homepage": "https://github.com/Mahito0x/LoungeLex#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "cld": "^2.9.0",
+    "discord.js": "^14.11.0",
+    "dotenv": "^16.5.0",
+    "langdetect": "^0.2.1",
+    "langs": "^2.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "nodemon": "^3.1.0"
+  },
+  "private": false
+}

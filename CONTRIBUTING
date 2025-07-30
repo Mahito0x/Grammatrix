@@ -1,0 +1,33 @@
+# Contributing to LoungeLex
+
+Thank you for your interest in contributing to LoungeLex! We appreciate your help in making this bot better for everyone.
+
+## How to Contribute
+
+### Reporting Issues
+- Before opening a new issue, please search the existing issues to avoid duplicates.
+- Provide clear, detailed descriptions and steps to reproduce any bugs.
+
+### Feature Requests
+- Suggest new features by opening an issue with a clear explanation and potential use cases.
+- Discuss with maintainers if you plan to work on a larger feature before submitting a pull request.
+
+### Pull Requests
+- Fork the repository and create your branch from `main`.
+- Write clear, concise commit messages.
+- Ensure your code follows the existing style and formatting.
+- Test your changes thoroughly before submitting.
+- Include relevant tests for new features or bug fixes.
+- Open a pull request describing your changes in detail.
+
+## Code Style
+- Use modern JavaScript (ES6+) and follow the style used in the project.
+- Keep functions small and focused.
+- Write clear and meaningful comments where necessary.
+
+## License
+By contributing, you agree that your contributions will be licensed under the [MIT License](LICENSE).
+
+---
+
+Thank you for helping improve LoungeLex!
